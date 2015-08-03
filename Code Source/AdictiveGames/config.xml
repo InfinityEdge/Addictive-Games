@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://esprit.tn/AdictiveGames" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="rX9QUWAv2V.AdictiveGames" package="rX9QUWAv2V" required_version="2.2"/>
+    <author href="http://infinity-edge.16mb.com" email="contact@infinity-edge.16mb.com">Infinity Edge</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>Adictive Games</name>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>

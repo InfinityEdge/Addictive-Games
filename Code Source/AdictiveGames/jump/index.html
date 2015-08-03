@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<style>
+	body{
+		background-color: #d0f4f7;
+		color: #2c3e50;
+	}
+</style>
+<meta name="viewport" content="user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>Jump</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/quintus-all.min.js"></script>
+<script src="js/game.js"></script>
+<style> 
+  body { padding:0px; margin:0px; overflow: hidden } 
+</style>
+</head>
+<body style="padding: 0px; margin: 0px;">
+<div class="ui-page">
+<div style="height:20px;"><span id="score" style="margin:0px; padding:4px">Score: 0</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span id="highScore">High Score : <script>if(window.localStorage.getItem("score") == null){
+		document.write(0);
+	}else {
+	document.write(window.localStorage.getItem("score"));}</script></span></div>
+<canvas width="320" height="300" id="myGame" tabindex="0" style=" position: relative; outline: 0px;"></canvas></div>
+<script src="js/app.js"></script>
+</body></html>

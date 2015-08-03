@@ -1,0 +1,5 @@
+Trois jeux addictifs pour tuer le temps, combattre les fantômes dans Ghost Busters, piloter votre avion dans Jump et courir pour la plus longue distance en évitant les obstacles dans Runner, tout en essayant de battre le meilleur score.
+
+Ces trois jeux font partie de l'App Game Center qui va être publié prochainement.
+
+Ces jeux sont développés par deux étudiants; Oussama Romdhane et Haythem Stiti (http://infinity-edge.16mb.com)

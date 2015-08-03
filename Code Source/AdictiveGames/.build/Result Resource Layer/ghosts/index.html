@@ -1,0 +1,26 @@
+<html lang="en"><head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>Platformer Example</title>
+<script src="js/quintus-all.min.js"></script>
+<script src="js/jquery.js"></script>
+
+
+<style> 
+  body { padding:0px; margin:0px; } 
+</style>
+</head>
+<body style="padding: 0px; margin: 0px;">
+<div id="score" style="color: white; font-size: 23px;position: fixed; top : 20px; left : 0px; z-index: 20000">&nbsp;&nbsp;Score : 0</div>
+<div id="highScore" style="color: white; font-size: 23px;position: fixed; right: 0px; top : 20px; z-index: 20000">
+High Score : <script>if (window.localStorage.getItem("highScoreFontom") == null) document.write("0"); 
+else document.write(window.localStorage.getItem("highScoreFontom"));</script>
+&nbsp;&nbsp;</div>
+<div onClick = "window.location.reload();history.go(0);window.location.href=window.location.href"id="youLose" width="320" height="320" style="display: none;text-align: center; color: white; height: 320 !important;width: 320 !important; position: absolute; z-index: 500000; background-color: #333; opacity: 0.8">
+<h4>tap anywhere to replay</h4><img src="images/gold_medal.png" id="medal" style="display: none; margin: 10px; opacity: 0.7; float: left">
+<h3>HighScore : <script>if (window.localStorage.getItem("highScoreFontom") == null) document.write("0"); else document.write(window.localStorage.getItem("highScoreFontom"))</script></h3>
+<p>Your Score : <script>if (window.localStorage.getItem("thisScoreFontom") == null) document.write("0"); else document.write(window.localStorage.getItem("thisScoreFontom"))</script></p>
+<script>if (parseInt(window.localStorage.getItem("highScoreFontom")) >= parseInt(window.localStorage.getItem("highScoreFontom")))
+ $("#medal").css("display","block");</script></div>
+<canvas width="320" height="300" id="quintus" tabindex="0" style="height: 300px; width: 320px; position: relative; outline: 0px;"></canvas><script src="js/game.js"></script><script src="js/app.js"></script></body></html>

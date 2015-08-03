@@ -1,0 +1,21 @@
+.line
+{
+	margin-top: 15px;
+	display: block;
+	width: 100%;
+}
+.half
+{
+	display: inline-block !important;
+	width: 48% !important;
+	padding: 3px !important;
+	visibility: hidden;
+}
+.aviableGame
+{
+	visibility: visible;
+}
+h6
+{
+	margin: 1px !important;
+}
